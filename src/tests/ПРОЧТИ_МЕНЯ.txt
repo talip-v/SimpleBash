@@ -1,0 +1,8 @@
+1. Положи всю папку tests в src директорию своего проекта. (в src теперь будет три папки: cat, grep и tests)
+2. Собери свои s21_cat и s21_grep и положи в соответствующие папки. s21_cat в tests/cat_tests, а s21_grep в tests/grep_tests
+3. Запускай все тесты из папки tests через ./test_all.py (точно так же, как и bash скрипт - главное добавь chmod +x на все .py файлы, которые будешь запускать)
+4. Можно запускать тесты отдельно:
+    - test_cat.py
+    - test_grep.py
+    - valgrind_test_cat.py
+    - valgrind_test_grep.py

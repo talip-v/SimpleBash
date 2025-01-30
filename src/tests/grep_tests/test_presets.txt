@@ -1,0 +1,53 @@
+abc input_test1.txt
+abc input_test2.txt
+abc input_test3.txt
+abc input_test5.txt
+abc input_test1.txt input_test2.txt input_test3.txt
+
+-e abc input_test1.txt
+-e abc input_test5.txt
+-e abc input_test1.txt input_test2.txt
+-e abc -e 111 input_test1.txt input_test2.txt
+
+-i AbC input_test1.txt
+-i AbC input_test5.txt
+-i AbC input_test1.txt input_test2.txt
+
+-v AbC input_test1.txt
+-v AbC input_test5.txt
+-v AbC input_test1.txt input_test2.txt
+
+-c abc input_test1.txt
+-c abc input_test5.txt
+-c abc input_test1.txt input_test2.txt input_test3.txt
+-c 111 input_test1.txt
+-c 222 input_test1.txt input_test2.txt input_test3.txt
+
+-l abc input_test1.txt
+-l abc input_test5.txt
+-l abc input_test1.txt input_test2.txt input_test3.txt
+-l 111 input_test1.txt
+-l 222 input_test1.txt input_test2.txt input_test3.txt
+
+-n abc input_test1.txt
+-n abc input_test5.txt
+-n AbC input_test1.txt input_test2.txt input_test3.txt
+-n 111 input_test1.txt
+-n 222 input_test1.txt input_test2.txt input_test3.txt
+
+-h abc input_test1.txt
+-h abc input_test5.txt
+-h AbC input_test1.txt input_test2.txt input_test3.txt
+-h 111 input_test1.txt
+-h 222 input_test1.txt input_test2.txt input_test3.txt
+
+-s abc input_test1.txt input_testNONEXISTENT.txt
+-s abc input_test5.txt input_testNONEXISTENT.txt
+-s abc input_testNONEXISTENT.txt
+
+-f pattern_1.txt input_test1.txt
+-f pattern_1.txt input_test5.txt
+
+-o AbC input_test1.txt input_test2.txt input_test3.txt
+-o 111 input_test1.txt
+-o 222 input_test1.txt input_test2.txt input_test3.txt

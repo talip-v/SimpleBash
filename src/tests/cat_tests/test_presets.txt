@@ -1,0 +1,19 @@
+-b input_test1.txt 
+-e input_test1.txt 
+-n input_test1.txt 
+-s input_test1.txt 
+-t input_test1.txt
+-bE input_test1.txt
+-b input_test1.txt input_test2.txt
+-b input_test1.txt input_test2.txt input_test3.txt input_test4.txt
+-e input_test1.txt input_test2.txt
+-n input_test1.txt input_test2.txt
+-n input_test1.txt input_test2.txt input_test3.txt input_test4.txt
+-s input_test1.txt input_test2.txt
+-t input_test1.txt input_test2.txt
+-b non_printing.txt 
+-e non_printing.txt 
+-n non_printing.txt 
+-s non_printing.txt 
+-t non_printing.txt
+-bE non_printing.txt 
